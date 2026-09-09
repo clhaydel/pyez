@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from jnpr.junos.utils.fs import FS
 from jnpr.junos import Device
 from getpass import getpass
