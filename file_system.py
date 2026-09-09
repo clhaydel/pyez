@@ -2,7 +2,7 @@ from jnpr.junos.utils.fs import FS
 from jnpr.junos import Device
 from getpass import getpass
 
-host=input("host: ")
+hos = input("host: ")
 user = input("username: ")
 password = getpass("password: ")
 

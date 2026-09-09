@@ -2,7 +2,7 @@ from jnpr.junos import Device
 from lxml import etree
 from getpass import getpass
 
-host=input("host: ")
+host = input("host: ")
 user = input("username: ")
 password = getpass("password: ")
 
