@@ -1,0 +1,69 @@
+
+
+root@srx320> show system uptime no-forwarding
+
+Current time: 2026-09-21 16:32:10 UTC
+Time Source:  LOCAL CLOCK
+System booted: 2026-09-21 16:19:25 UTC (00:12:45 ago)
+Protocols started: 2026-09-21 16:24:08 UTC (00:08:02 ago)
+Last configured: 2026-09-16 15:56:18 UTC (5d 00:35 ago) by chaydel
+ 4:32PM  up 13 mins, 2 users, load averages: 0.47, 2.48, 2.42
+
+
+root@srx320> show version detail no-forwarding
+
+Hostname: srx320
+Model: srx320-poe
+Junos: 20.2R3-S2.5
+JUNOS Software Release [20.2R3-S2.5]
+KERNEL 20.2R3-S2.5 #0 built by builder on 2021-07-30 09:45:37 UTC
+MGD release 20210721.065032.4_builder.r1201606 built by builder on 2021-07-21 07:53:55 UTC
+CLI release 20210721.065032.4_builder.r1201606 built by builder on 2021-07-21 07:51:42 UTC
+JNUD release 20210721.065032.4_builder.r1201606 built by builder on 2021-07-21 07:51:50 UTC
+RPD release 20.2R3-S2.5 built by builder on 2021-07-30 11:43:31 UTC
+CHASSISD release 20.2R3-S2.5 built by builder on 2021-07-30 11:44:06 UTC
+BFDD release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:40 UTC
+IKED release 20.2R3-S2.5 built by builder on 2021-07-30 11:30:44 UTC
+GKSD release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:18 UTC
+GKMD release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:17 UTC
+PKID release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:25 UTC
+SENDD release 20.2R3-S2.5 built by builder on 2021-07-30 11:24:00 UTC
+DFWD release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:54 UTC
+DCD release 20.2R3-S2.5 built by builder on 2021-07-30 11:23:57 UTC
+SNMPD release 20.2R3-S2.5 built by builder on 2021-07-30 11:41:57 UTC
+MIB2D release 20.2R3-S2.5 built by builder on 2021-07-30 11:41:28 UTC
+VRRPD release 20.2R3-S2.5 built by builder on 2021-07-30 11:30:39 UTC
+ALARMD release 20.2R3-S2.5 built by builder on 2021-07-30 11:32:49 UTC
+PFED release 20.2R3-S2.5 built by builder on 2021-07-30 11:30:23 UTC
+CRAFTD release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:50 UTC
+SAMPLED release 20.2R3-S2.5 built by builder on 2021-07-30 11:30:27 UTC
+SRRD release 20.2R3-S2.5 built by builder on 2021-07-30 10:59:51 UTC
+RMOPD release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:29 UTC
+COSD release 20.2R3-S2.5 built by builder on 2021-07-30 11:30:40 UTC
+IRSD release 20.2R3-S2.5 built by builder on 2021-07-30 11:00:02 UTC
+FUD release 20.2R3-S2.5 built by builder on 2021-07-30 11:24:04 UTC
+KSYNCD release 20.2R3-S2.5 built by builder on 2021-07-30 10:56:33 UTC
+HTTPD-GK release 20.2R3-S2.5 built by builder on 2021-07-30 11:32:58 UTC
+DHCPD release 20.2R3-S2.5 built by builder on 2021-07-30 11:24:04 UTC
+PPPOED release 20.2R3-S2.5 built by builder on 2021-07-30 11:24:17 UTC
+PPPD release 20.2R3-S2.5 built by builder on 2021-07-30 11:24:17 UTC
+DFCD release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:51 UTC
+LACPD release 20.2R3-S2.5 built by builder on 2021-07-30 11:30:04 UTC
+flowd_octeon_hm release 20.2R3-S2.5 built by builder on 2021-07-30 10:56:04 UTC
+USBD release 20.2R3-S2.5 built by builder on 2021-07-30 10:55:04 UTC
+LFMD release 20.2R3-S2.5 built by builder on 2021-07-30 11:30:04 UTC
+OAMD release 20.2R3-S2.5 built by builder on 2021-07-30 11:30:20 UTC
+TNETD release 20.2R3-S2.5 built by builder on 2021-07-30 10:55:33 UTC
+CFMD release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:41 UTC
+JDHCPD release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:57 UTC
+PSSD release 20.2R3-S2.5 built by builder on 2021-07-30 11:24:17 UTC
+AUTHD release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:12 UTC
+PHONE-HOME release 20.2R3-S2.5 built by builder on 2021-07-30 10:56:55 UTC
+RES-CLEANUPD release 20.2R3-S2.5 built by builder on 2021-07-30 11:24:18 UTC
+APPIDD release 20.2R3-S2.5 built by builder on 2021-07-30 11:32:49 UTC
+APPSECURED release 20.2R3-S2.5 built by builder on 2021-07-30 11:29:30 UTC
+IDPD release 20.2R3-S2.5 built by builder on 2021-07-30 11:32:57 UTC
+SHM-RTSDBD release 20.2R3-S2.5 built by builder on 2021-07-30 11:24:20 UTC
+DATAPATH-TRACED release 20.2R3-S2.5 built by builder on 2021-07-30 11:24:02 UTC
+SMID release 20.2R3-S2.5 built by builder on 2021-07-30 11:32:53 UTC
+SMIHELPERD
